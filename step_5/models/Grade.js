@@ -16,3 +16,9 @@ const gradeSchema = new mongoose.Schema({
     })
 
 exports.Grade = mongoose.model('Grade', gradeSchema);
+
+// CREATE TABLE `Grades` (
+//     `grade_id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+//     `grade_name` varchar(255) NOT NULL,
+//     `grade` int NOT NULL
+//   );

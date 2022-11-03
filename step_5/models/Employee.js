@@ -28,3 +28,12 @@ const employeeSchema = new mongoose.Schema({
     })
 
 exports.Employee = mongoose.model('Employee', employeeSchema);
+
+// CREATE TABLE `Employees` (
+//     `employee_id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+//     `status` boolean NOT NULL,
+//     `first_name` varchar(100) NOT NULL,
+//     `last_name` varchar(100) NOT NULL,
+//     `skill_id` int,
+//     `grade_id` int
+//   );
