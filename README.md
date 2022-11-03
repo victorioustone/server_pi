@@ -7,7 +7,12 @@
 [Docker desktop](https://www.docker.com/products/docker-desktop/) <если еще не установлен> 
 ### Работа с докером
 `docker-compose build `    
-`docker-compose up `   
+`docker-compose up `  
+
+
+<p align="left">
+  <img src="screenshot.png" width="600" title="hover text">
+</p>
 
 ### curl - на маке предустановлен, работа через консоль. 
 #### Но можно вводить и через браузер
