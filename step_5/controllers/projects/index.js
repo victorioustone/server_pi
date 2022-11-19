@@ -3,18 +3,18 @@ var async = require("async");
 const ProjectModel = require('../../models/Project')
 
 // считываем dummy-data
-const {member, project} = require('../../dummy_data/db')
+const {project} = require('../../dummy_data/db')
 
-Member = MemberModel.Member
-exports.createMember = async function (req, res) {
-    const new_member = new Member({
+Project = ProjectModel.Project 
+exports.createProject = async function (req, res) {
+    const new_project = new Project ({
         project_name: project.project_name,
         project_leader_id: project.project_leader_id,
         team_lead_id: project.team_lead_id,
     });
 
     // // как правильно
-    // const new_member = new Member({
+    // const new_project = new Project({
     //     project_name: req.params.project.project_name,
     //     project_leader_id: req.params.project.project_leader_id,
     //     team_lead_id: req.params.project.team_lead_id,
