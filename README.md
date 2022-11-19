@@ -33,4 +33,11 @@
 В папку models добавляется модель данных (каркас таблицы). Поле _id создается mongodb автоматически, и у него свой отдельный тип данных.  
 В папке [controllers](step_5/controllers) прописываются функции, которые будут забираться router-ом в [server.js](step_5/server.js)
 
-Сейчас создаются [dummy-data](step_5/dummy_data/db.js) для удобства отладки.  
+Сейчас создаются [dummy-data](step_5/dummy_data/db.js) для удобства отладки.
+
+### Требования
+https://docs.google.com/document/d/18rbnDhDa8y0yuUUje21dGH9x_Pa29aVdGpy7zm1px7c/edit?usp=sharing
+
+### Выбор стека технологий для реализации
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/62689637/200595575-300bdd65-cf05-44f4-bf37-4318ad480aef.png">
+
