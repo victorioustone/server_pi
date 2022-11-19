@@ -1,6 +1,6 @@
+// проверка ветки hotfix
 const express = require('express');
 const cors = require('cors');
-// const mongodb = require('mongodb');
 const mongoose = require('mongoose');
 const config = require('./db');
 const PORT = 4000;
